@@ -1,4 +1,4 @@
-Function User_Agent()
+<%
 	  dim browser, browserarr, User_Agent
 		User_Agent = Request.ServerVariables("HTTP_USER_AGENT")
 
@@ -129,4 +129,4 @@ Function User_Agent()
 		'http://www.useragentstring.com/?uas=User_Agent&getJSON=all
 		'http://www.zytrax.com/tech/web/mobile_ids.html
 		
-End Function
+%>
