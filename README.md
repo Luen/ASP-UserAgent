@@ -8,6 +8,9 @@ Usage
 =============
 
 ```asp
+<!--#include file="UserAgentParser.asp" -->
+<%
 response.write "Browser: " & browser & vbCrLf
 response.write "OS: " & OS & vbCrLf
+%>
 ```
